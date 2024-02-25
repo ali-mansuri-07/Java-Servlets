@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <welcome-file-list>
+  					<welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  			<servlet-name>first</servlet-name>
+  			<servlet-class>com.nri.ali.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  					<servlet-name>first</servlet-name>
+  					<url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  			<servlet-name>second</servlet-name>
+  			<servlet-class>com.nri.ali.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  					<servlet-name>second</servlet-name>
+  					<url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  			<servlet-name>third</servlet-name>
+  			<servlet-class>com.nri.ali.ThirdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  					<servlet-name>third</servlet-name>
+  					<url-pattern>/third</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  			<servlet-name>register</servlet-name>
+  			<servlet-class>com.nri.ali.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  					<servlet-name>register</servlet-name>
+  					<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  			<servlet-name>success</servlet-name>
+  			<servlet-class>com.nri.ali.SuccessServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  					<servlet-name>success</servlet-name>
+  					<url-pattern>/success</url-pattern>
+  </servlet-mapping>
+  
+<servlet>
+     <servlet-name>S1</servlet-name>
+     <servlet-class>com.nri.attr.S1</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>S1</servlet-name>
+    <url-pattern>/S1</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+     <servlet-name>S2</servlet-name>
+     <servlet-class>com.nri.attr.S2</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>S2</servlet-name>
+    <url-pattern>/S2</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+     <servlet-name>Servlet1</servlet-name>
+     <servlet-class>com.nri.session.Servlet1</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/Servlet1</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+     <servlet-name>Servlet2</servlet-name>
+     <servlet-class>com.nri.session.Servlet2</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>Servlet2</servlet-name>
+    <url-pattern>/Servlet2</url-pattern>
+</servlet-mapping>
+  <display-name>ServletProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+</web-app>
